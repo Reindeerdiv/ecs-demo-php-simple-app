@@ -23,6 +23,9 @@
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
+                          $data = $_GET["http://169.254.169.254/latest/meta-data/"];
+
+                          var_dump($data);
                 ?>
 
             </div>
