@@ -27,6 +27,14 @@
 
             </div>
         </div>
+         <div>
+          <p> <?php 
+                  require 'data.php';
+                  var_dump($data);
+                  echo $data;
+              ?> 
+          </p>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
