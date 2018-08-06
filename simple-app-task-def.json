@@ -26,7 +26,7 @@
     ],
     "family": "student-1",
     
-      "networkMode": "awsvpc",
+      "networkMode": "bridge",
        "taskRoleArn": "arn:aws:iam::950421538861:role/ecsTaskExecutionRole"
        
 }
