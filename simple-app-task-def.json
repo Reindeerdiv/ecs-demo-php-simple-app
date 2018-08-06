@@ -25,5 +25,6 @@
         }
       
     ],
-      "networkMode": "awsvpc"
+      "networkMode": "awsvpc",
+       "taskRoleArn": "arn:aws:iam::950421538861:role/ecsTaskExecutionRole"
 }
