@@ -4,7 +4,7 @@
         {
             "environment": [],
             "name": "simple-app",
-            "image": "studentapp:v_%BUILD_NUMBER%",
+            "image": "divya12/demo:v_%BUILD_NUMBER%",
             "cpu": 10,
             "memory": 500,
             "portMappings": [
