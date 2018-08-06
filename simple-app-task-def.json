@@ -5,7 +5,7 @@
         {
             "environment": [],
             "name": "simple-app",
-            "image": "studentapp",
+            "image": "studentapp:v_%BUILD_NUMBER%",
             "cpu": 10,
             "memory": 500,
             "portMappings": [
