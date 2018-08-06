@@ -1,4 +1,5 @@
 {
+     "executionRoleArn": "arn:aws:iam::950421538861:role/ecsTaskExecutionRole",
     "family": "student-1",
    
     "containerDefinitions": [
@@ -26,6 +27,6 @@
       
     ],
       "networkMode": "awsvpc",
-       "taskRoleArn": "arn:aws:iam::950421538861:role/ecsTaskExecutionRole",
-        "executionRoleArn": "arn:aws:iam::950421538861:role/ecsTaskExecutionRole"
+       "taskRoleArn": "arn:aws:iam::950421538861:role/ecsTaskExecutionRole"
+       
 }
