@@ -5,7 +5,7 @@
         {
             "environment": [],
             "name": "simple-app",
-            "image": "amazon/amazon-ecs-sample",
+            "image": "studentapp",
             "cpu": 10,
             "memory": 500,
             "portMappings": [
