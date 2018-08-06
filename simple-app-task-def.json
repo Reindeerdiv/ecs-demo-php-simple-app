@@ -1,7 +1,6 @@
 {
-     "executionRoleArn": "arn:aws:iam::950421538861:role/ecsTaskExecutionRole",
     "family": "student-1",
-   
+    "executionRoleArn": "arn:aws:iam::950421538861:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "environment": [],
